@@ -7,7 +7,7 @@
 
 A comprehensive PowerShell-based security audit tool for identifying privileged account risks in Azure Active Directory (Microsoft Entra ID) environments.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -26,7 +26,7 @@ A comprehensive PowerShell-based security audit tool for identifying privileged 
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 **Problem Statement:**  
 Organizations often lack visibility into their Azure AD privileged role assignments, leading to security risks such as:
@@ -47,7 +47,7 @@ This automated audit tool scans all privileged roles in Azure AD, identifies sec
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Security Auditing
 - ✅ **Comprehensive Role Coverage** - Audits 17 critical Azure AD privileged roles
@@ -101,7 +101,7 @@ This automated audit tool scans all privileged roles in Azure AD, identifies sec
 
 ---
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 ### Required
 - **PowerShell:** Version 5.1 or PowerShell 7+
@@ -123,7 +123,7 @@ This automated audit tool scans all privileged roles in Azure AD, identifies sec
 
 ---
 
-## 📥 Installation
+##  Installation
 
 ### Step 1: Install Microsoft Graph PowerShell Module
 
@@ -154,7 +154,7 @@ Get-Module Microsoft.Graph -ListAvailable
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Quick Start
 
@@ -188,7 +188,7 @@ The script requires these Microsoft Graph API permissions (read-only):
 
 ---
 
-## 🔍 What It Audits
+##  What It Audits
 
 ### Privileged Roles Checked
 
@@ -237,7 +237,7 @@ The script requires these Microsoft Graph API permissions (read-only):
 
 ---
 
-## 📊 Output & Reports
+## Output & Reports
 
 ### CSV Report
 **Filename:** `AzureAD_PrivilegedRoleAudit_YYYYMMDD_HHMMSS.csv`
@@ -296,7 +296,7 @@ RECOMMENDATIONS
 
 ---
 
-## 🔴 Sample Findings
+##  Sample Findings
 
 ### Critical Finding #1: Disabled Account with Global Admin
 **Issue:** Sarah Johnson's account is disabled but retains Global Administrator privileges
@@ -414,7 +414,7 @@ Register-ScheduledTask -TaskName "Azure AD Privileged Role Audit" `
 
 ---
 
-## 🔐 Security Best Practices
+##  Security Best Practices
 
 ### Microsoft Zero Trust Principles
 
@@ -445,7 +445,7 @@ This tool helps achieve compliance with:
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 ### Version 2.0 (Planned)
 - [ ] Email notifications for critical findings
@@ -465,7 +465,7 @@ This tool helps achieve compliance with:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -494,22 +494,15 @@ git push origin feature/your-feature-name
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
-
-**Ibukunoluwa Sulaiman**
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [@yourusername](https://github.com/yourusername)
-
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Microsoft Graph PowerShell SDK team
 - Azure AD security best practices documentation
@@ -518,21 +511,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Support
 
-For issues, questions, or suggestions:
-- 📫 Open an [issue](https://github.com/yourusername/azure-ad-privileged-role-audit/issues)
-- 💬 Start a [discussion](https://github.com/yourusername/azure-ad-privileged-role-audit/discussions)
-- 📧 Email: your.email@example.com
-
----
-
-## ⭐ Star History
-
-If you find this project useful, please consider giving it a star!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/azure-ad-privileged-role-audit&type=Date)](https://star-history.com/#yourusername/azure-ad-privileged-role-audit&Date)
-
----
-
-**Made with ❤️ for the cybersecurity community**
