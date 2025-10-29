@@ -469,45 +469,16 @@ This tool helps achieve compliance with:
 
 Contributions are welcome! Please follow these guidelines:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
-### Development Setup
-```bash
-# Clone your fork
-git clone https://github.com/yourusername/azure-ad-privileged-role-audit.git
-
-# Create feature branch
-git checkout -b feature/your-feature-name
-
-# Make changes and test
-.\AzureAD-PrivilegedRoleAudit.ps1
-
-# Commit and push
-git add .
-git commit -m "Description of changes"
-git push origin feature/your-feature-name
-```
 
 ---
 
-##  License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ---
 
-##  Acknowledgments
 
-- Microsoft Graph PowerShell SDK team
-- Azure AD security best practices documentation
-- CIS Microsoft 365 Foundations Benchmark
-- NIST Cybersecurity Framework
 
 ---
 
