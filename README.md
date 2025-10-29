@@ -73,7 +73,7 @@ This automated audit tool scans all privileged roles in Azure AD, identifies sec
 
 ---
 
-## 💼 Use Cases
+## Use Cases
 
 ### IT Security Teams
 - Monthly privileged access reviews
@@ -341,7 +341,7 @@ Remove-MgDirectoryRoleMemberByRef -DirectoryRoleId <RoleId> -DirectoryObjectId <
 
 ---
 
-## 🛠️ Remediation Guide
+##  Remediation Guide
 
 ### Immediate Actions (Week 1)
 
@@ -444,24 +444,6 @@ This tool helps achieve compliance with:
 - **CIS Control 1.2.1:** Ensure MFA is required for administrative roles
 
 ---
-
-##  Roadmap
-
-### Version 2.0 (Planned)
-- [ ] Email notifications for critical findings
-- [ ] Integration with Microsoft Sentinel
-- [ ] Automated remediation workflows
-- [ ] Comparison reports (month-over-month trends)
-- [ ] Custom role definition support
-- [ ] Multi-tenant support for MSPs
-
-### Version 3.0 (Future)
-- [ ] Web dashboard for visualization
-- [ ] Real-time monitoring mode
-- [ ] Machine learning for anomaly detection
-- [ ] Integration with ticketing systems
-- [ ] Mobile app for alerts
-- [ ] API for external integrations
 
 ---
 
