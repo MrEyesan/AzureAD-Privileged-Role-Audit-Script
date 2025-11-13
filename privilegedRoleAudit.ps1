@@ -10,9 +10,9 @@ Write-Host "Using domain: $domain" -ForegroundColor Yellow
 # Scenario 1: Active Global Admin (GOOD - but we'll flag it as regular user)
 $user1 = @{
     AccountEnabled = $true
-    DisplayName = "John Smith"
-    MailNickname = "jsmith"
-    UserPrincipalName = "jsmith@$domain"
+    DisplayName = "Ibukunoluwa Sulaiman"
+    MailNickname = "isulaiman"
+    UserPrincipalName = "ibukun.sulaiman@$aiderapp.com"
     PasswordProfile = @{
         ForceChangePasswordNextSignIn = $false
         Password = "TestPass123!"
