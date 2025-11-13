@@ -22,9 +22,9 @@ $user1 = @{
 # Scenario 2: Disabled account that still has admin role (BAD - major finding!)
 $user2 = @{
     AccountEnabled = $false
-    DisplayName = "Sarah Johnson - DISABLED"
-    MailNickname = "sjohnson"
-    UserPrincipalName = "sjohnson@$domain"
+    DisplayName = "Peace Ayuba- DISABLED"
+    MailNickname = "payuba"
+    UserPrincipalName = "payuba@ibukunsulaimanaiderapp.onmicrosoft.com"
     PasswordProfile = @{
         ForceChangePasswordNextSignIn = $false
         Password = "TestPass123!"
@@ -34,9 +34,9 @@ $user2 = @{
 # Scenario 3: Account never signed in but has admin role (BAD - stale account)
 $user3 = @{
     AccountEnabled = $true
-    DisplayName = "Mike Chen - Never Used"
-    MailNickname = "mchen"
-    UserPrincipalName = "mchen@$domain"
+    DisplayName = "Ahmed Salvador - Never Used"
+    MailNickname = "asalvador"
+    UserPrincipalName = "asalvador@ibukunsulaimanaiderapp.onmicrosoft.com"
     PasswordProfile = @{
         ForceChangePasswordNextSignIn = $false
         Password = "TestPass123!"
@@ -68,18 +68,18 @@ catch {
 
 try {
     $newUser2 = New-MgUser -BodyParameter $user2
-    Write-Host "✓ Created: Sarah Johnson (DISABLED - This will be a finding!)" -ForegroundColor Green
+    Write-Host "✓ Created: Peace Ayuba (DISABLED - This will be a finding!)" -ForegroundColor Green
 }
 catch {
-    Write-Host "✗ Error creating Sarah Johnson: $_" -ForegroundColor Red
+    Write-Host "✗ Error creating Peace ayuba: $_" -ForegroundColor Red
 }
 
 try {
     $newUser3 = New-MgUser -BodyParameter $user3
-    Write-Host "✓ Created: Mike Chen (Never signed in - Will be flagged)" -ForegroundColor Green
+    Write-Host "✓ Created: Ahmed Salvador (Never signed in - Will be flagged)" -ForegroundColor Green
 }
 catch {
-    Write-Host "✗ Error creating Mike Chen: $_" -ForegroundColor Red
+    Write-Host "✗ Error creating Ahmed Salvador: $_" -ForegroundColor Red
 }
 
 try {
