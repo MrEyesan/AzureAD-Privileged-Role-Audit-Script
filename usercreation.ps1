@@ -48,7 +48,7 @@ $user4 = @{
     AccountEnabled = $true
     DisplayName = "SVC-BackupAdmin"
     MailNickname = "svc-backup"
-    UserPrincipalName = "svc_backup@$domain"
+    UserPrincipalName = "svc_backup@ibukunsulaimanaiderapp.onmicrosoft.com"
     PasswordProfile = @{
         ForceChangePasswordNextSignIn = $false
         Password = "TestPass123!"
@@ -60,10 +60,10 @@ Write-Host "`nCreating test users..." -ForegroundColor Yellow
 
 try {
     $newUser1 = New-MgUser -BodyParameter $user1
-    Write-Host "✓ Created: John Smith (Regular Admin)" -ForegroundColor Green
+    Write-Host "✓ Created: Ibukunoluwa Sulaiman (Regular Admin)" -ForegroundColor Green
 }
 catch {
-    Write-Host "✗ Error creating John Smith: $_" -ForegroundColor Red
+    Write-Host "✗ Error creating Ibukunoluwa sulaiman: $_" -ForegroundColor Red
 }
 
 try {
