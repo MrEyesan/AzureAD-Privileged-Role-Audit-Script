@@ -443,22 +443,10 @@ This tool helps achieve compliance with:
 - **CIS Control 1.1.3:** Ensure that between two and four global admins are designated
 - **CIS Control 1.2.1:** Ensure MFA is required for administrative roles
 
----
-
----
 
 ##  Contributing
 
 Contributions are welcome! Please follow these guidelines:
-
-
-
----
-
-
----
-
----
 
 
 
